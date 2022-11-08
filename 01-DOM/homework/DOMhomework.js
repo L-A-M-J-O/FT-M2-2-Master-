@@ -39,7 +39,6 @@ ToDo.prototype.completeToDo = function () {
 }
 
 
-
 // Agregar dos parámetros a la función 'buildToDo':
 //    1) Un objeto de la clase ToDo
 //    2) Index numérico
@@ -60,6 +59,8 @@ ToDo.prototype.completeToDo = function () {
 
 function buildToDo(todo, index) {
   // Tu código acá:
+    let toDoShell = document.getElementById('toDoShell');
+    todo.innerHTML = 'div'
 
 }
 
