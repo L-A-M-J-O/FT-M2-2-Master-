@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Música 8D</title>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -29,12 +29,20 @@
     </header>
 
     <section class="music-images">
-        <img src="img/auriculares.png" class="auricular" alt="Auriculares">
-        <img src="img/tecnologia.png" class="tecnologia" alt="Tecnologia">
-        <img src="img/ondas.png" class="ondas" alt="Ondas">
+      <div class="row justify-content-center p-0 m-0">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/auriculares.png" class="auricular" alt="Auriculares">
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/tecnologia.png" class="tecnologia" alt="Tecnologia">
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="img/ondas.png" class="ondas" alt="Ondas">
+        </div>
+      </div>
     </section>
 
-    <section class="musica-nueva">
+    <section class="musica-nueva mt-3">
 
       <h3>¿De qué se trata?</h3>
 
@@ -43,29 +51,38 @@
       <p>A grandes rasgos, a partir de un complicado trabajo que tiene base matemática, se trabaja la fase del sonido que permite que el cerebro distinga de dónde viene la información.</p>
     </section>
 
-    <section class="actual">
-      <div class="actual-text">
-        <h3>Trabajos actuales</h3>
+    <section class="actual active">
+      <div class="row row-cols-1 mt-5 justify-content-center">
+        <hr>
+        <div class="col-5">
+          <h3>Trabajos actuales</h3>
 
-        <p>Music Lab actualmente está trabajando en un álbum enteramente en sonido 360° con artistas argentinos y extranjeros como Proyecto Gómez Casa, Lula Bertoldi, Loli Molina, Chancha Vía Circuito, Darío Jalfin, Nahuel Bronzini y Famasloop.</p>
-
-        <p>Hoy por hoy trabaja no solo a nivel musical sino a lo que sonido se refiere, innovando en álbumes pero también en instalaciones sonoras en conferencias y presentaciones.</p>
-
-        <div class="btn">
-          Registrate
+          <p>Music Lab actualmente está trabajando en un álbum enteramente en sonido 35col-50° con artistas argentinos y extranjeros como Proyecto Gómez Casa, Lula Bertoldi, Loli Molina, Chancha Vía Circuito, Darío Jalfin, Nahuel Bronzini y Famasloop.</p>
+  
+          <p>Hoy por hoy trabaja no solo a nivel musical sino a lo que sonido se refiere, innovando en álbumes pero también en instalaciones sonoras en conferencias y presentaciones.</p>
+          
+        </div>
+        <div class="col-5">
+          <div class="actual-img">
+            <img src="img/tema.png" alt="Tema">
+          </div>
         </div>
       </div>
-
-      <div class="actual-img">
-          <img src="img/tema.png" alt="Tema">
+      <div class="row justify-content-start">
+        <div class="col-4 text-center">
+          <div class="btn">
+            Registrate
+          </div>
+        </div>
       </div>
-
     </section>
 
-    <footer>
-      <p>Henry</p>
+    <footer class="mt-3">
+      <p class="btn-1 text-center">Henry</p>
     </footer>
 
   </div>
 </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </html>
