@@ -13,7 +13,6 @@ let html = document.getElementById("createdBy");
 html.innerHTML = 'Alan Naranjo'
 
 
-
 // Crear una clase denominada 'ToDo' cuyo constructor debe recibir un único parámetro del tipo string
 // con el nombre 'description' que será justamente la descripción del ToDo.
 // Agregar dos propiedades a la clase:
@@ -21,9 +20,11 @@ html.innerHTML = 'Alan Naranjo'
 // 2) 'complete'    : debe setearse en false
 // Ayuda: usar 'this' en el constructor
 
-function ToDo () {
+function ToDo (description, complete) {
   // Tu código acá:
-
+  this.description = description;
+  this.complete = complete;
+8
 }
 
 
@@ -32,6 +33,10 @@ function ToDo () {
 // Debe setear el atributo 'complete' del ToDo en true
 
 // Tu código acá:
+
+ToDo.prototype.completeToDo = function () {
+  this.complete = true
+}
 
 
 
