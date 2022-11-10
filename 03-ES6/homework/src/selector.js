@@ -9,6 +9,9 @@ var traverseDomAndCollectElements = function(matchFunc, startEl) {
   // usa matchFunc para identificar elementos que matchien
 
   // TU CÓDIGO AQUÍ
+
+    matchFunc ? resultSet.push(matchFunc): false;
+    return resultSet;
   
 };
 
@@ -18,7 +21,8 @@ var traverseDomAndCollectElements = function(matchFunc, startEl) {
 
 var selectorTypeMatcher = function(selector) {
   // tu código aquí
-  
+
+  selector == 'id' || 'class' || 'tag.class' || 'tag' ?  selector : false
 };
 
 // NOTA SOBRE LA FUNCIÓN MATCH
