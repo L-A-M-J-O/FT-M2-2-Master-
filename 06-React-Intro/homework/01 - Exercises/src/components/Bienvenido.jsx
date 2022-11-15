@@ -10,12 +10,14 @@ function Bienvenido(studentName) {
     <div>
       <h1>Bienvenido Usuario</h1>
       <h4>{studentName ='Alan Naranjo'}</h4>
+      <ul>
       {
-        techSkills.map(element => (
-          <li>{element}</li>
+        techSkills.map((element, index) => (
+          <li> key={index} {element}</li>
         ))
       }
-      <Botones alerts/>
+      </ul>
+      <Botones alerts={alerts}/>
     </div>
   )
 
