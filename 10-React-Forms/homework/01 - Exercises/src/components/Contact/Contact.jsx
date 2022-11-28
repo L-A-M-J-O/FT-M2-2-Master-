@@ -16,7 +16,9 @@ export default function Contact () {
       mensaje: ''
     }
   )
-  
+  const handleChange = (state, e) => {
+    
+  }
   return <div>
     <form>
       <label>Name</label>
